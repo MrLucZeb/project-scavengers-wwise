@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1068215004	Pistol_Reload			\Default Work Unit\Weapon\Pistol\Pistol_Reload	
 	1116398592	Hit			\Default Work Unit\Entity\Hit	
 	1382301657	Pistol_Draw			\Default Work Unit\Weapon\Pistol\Pistol_Draw	
+	1866025847	Footstep			\Default Work Unit\Entity\Footstep	
 	2267812190	Pistol_Dryfire			\Default Work Unit\Weapon\Pistol\Pistol_Dryfire	
 	3214964847	Rifle_Reload			\Default Work Unit\Weapon\Rifle\Rifle_Reload	
 	3257506471	Impact			\Default Work Unit\Entity\Impact	
@@ -36,10 +37,14 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	43786366	gma_bullet_impact_body_flesh_01_121	.cache\2D\{2DC4B162-C0A0-EFCE-7397-3FBA2C321913}.wem		\Containers\Default Work Unit\Entity\Impact\gma_bullet_impact_body_flesh_01_121		117056
 	81364142	Explore-bass-55bpm4-4-L4M-P0_01	.cache\7B\{7BEE2148-C7E8-5F6A-E570-65A9A7A3E160}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Explore-B\Explore-bass-55bpm4-4-L4M-P0_01		1047368
+	114776965	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510	.cache\0D\{0DD04190-716A-13F0-9FE8-2A4F1FCC57DB}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510		30258
 	134518801	rifle_shot	.cache\B1\{B1E20C8C-909B-5D62-9F64-C6F0CED332EE}.wem		\Containers\Default Work Unit\Weapons\rifle_shot		46400
+	187445172	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512	.cache\11\{11595D85-80C1-D7AC-2F18-AEF72CEA2F8E}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512		30326
 	190275706	simple_hit	.cache\1E\{1E229279-A77E-DB1E-184A-6493885FFD6B}.wem		\Containers\Default Work Unit\Entity\Hit\simple_hit		89752
+	235933696	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511	.cache\0A\{0AA3703A-B99F-DB22-1588-9052BCD06FE4}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511		34736
 	253492989	pistol_draw	.cache\C6\{C69AD417-DB60-EF95-0CC0-B1E8B7D5EDBC}.wem		\Containers\Default Work Unit\Weapons\pistol_draw		131704
 	259860565	Mixdown	.cache\2D\{2D8FA2EB-F57E-E26A-512E-04AB21097DB5}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Mixdown		2526748
+	327863606	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514	.cache\68\{689EA0CC-BAEC-587F-CA37-40381658301A}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514		33222
 	349245397	dry_fire	.cache\B5\{B5855E47-6274-61F6-8664-E53D49522179}.wem		\Containers\Default Work Unit\Weapons\dry_fire		17416
 	417871685	shotgun_shot_reload	.cache\1F\{1F8A290B-4384-1183-09BC-498BA3A0A543}.wem		\Containers\Default Work Unit\Weapons\shotgun_shot_reload		352892
 	443412640	reload	.cache\F9\{F9A4E600-4B64-D7FC-FAAC-931FBD85BB19}.wem		\Containers\Default Work Unit\Weapons\reload		219976
@@ -48,8 +53,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	513459578	pistol_shot	.cache\A7\{A7DBDE65-E31F-54CA-A067-E52286CCD8D2}.wem		\Containers\Default Work Unit\Weapons\pistol_shot		110664
 	579462439	Explore-ambient-lead-reverb-55bpm4-4-L4M-P0	.cache\DF\{DF133698-B1C4-3BF2-6DF4-6D48AAE86D96}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-A\Explore-ambient-lead-reverb-55bpm4-4-L4M-P0		1047372
 	583978091	Combat-AB-Lead-75bpm4-4-L4M-P0	.cache\54\{54AC278F-B233-807E-A41D-DEAD7AFC995A}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-A\Combat-AB-Lead-75bpm4-4-L4M-P0		3686496
+	623137118	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513	.cache\86\{8676AF1E-1E12-7B4D-850F-AB0DB12C4C44}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513		25426
 	673460087	explosion_02	.cache\EC\{ECB7D5A5-73CB-EAFE-4B0D-899B136396B8}.wem		\Containers\Default Work Unit\Explosion\explosion_02		1190200
 	680914672	Combat-AB-Lead-75bpm4-4-L4M-P0	.cache\7A\{7A461A98-AF8F-56E3-B06D-BCDFD7952722}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB_01\Combat-AB-Lead-75bpm4-4-L4M-P0		3072096
+	711240140	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508	.cache\00\{001E6797-4675-F056-5A2E-B4DB1E38ED94}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508		24158
 	743853540	Combat-bridge-lead-75bpm4-4-L1M-P1	.cache\7A\{7AC5B237-B820-C8C0-BA04-B263AC4E47FA}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2_Bridge\Combat-bridge-lead-75bpm4-4-L1M-P1		1843296
 	754362602	Combat-Trans-kick-55-75bpm4-4-L4M-P0	.cache\0F\{0FCF7CAF-C98E-B33E-DD1E-8DA3C5569A7D}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Exlore-Trans-Combat2\Combat-Trans-kick-55-75bpm4-4-L4M-P0		2658196
 	772907453	Combat-bridge-strings-75bpm4-4-L1M-P1	.cache\B0\{B0A20F45-ABB2-BFD8-5511-B27B501D35C2}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2_Bridge\Combat-bridge-strings-75bpm4-4-L1M-P1		1843296
@@ -58,6 +65,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	839852359	Combat-Trans-lead-55-75bpm4-4-L4M-P0	.cache\77\{770BC7F3-7787-4FB9-7BD3-8D0C42D58DB7}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Combat-Trans-lead-55-75bpm4-4-L4M-P0		2658196
 	842213639	Explore-ambient-reverb7-55bpm4-4-L4M-P0	.cache\2C\{2C9AC0B4-F099-FFB7-0689-29304BFFDF80}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Explore-Trans-Combat1\Explore-ambient-reverb7-55bpm4-4-L4M-P0		1047372
 	849231707	Crawler_Spawn	.cache\62\{624BCA9B-59DE-257F-49CB-D982A0BAD841}.wem		\Containers\Default Work Unit\Entity\Crawler_Spawn		24412
+	858572271	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509	.cache\DA\{DA407231-A306-57C4-7844-F310A33B0B93}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509		52688
 	878569457	Mixdown2	.cache\26\{261D3D11-4798-933E-680C-1A48BD3CC54D}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB\Mixdown2		2258016
 	903794785	Combat-Trans-strings-55-75bpm4-4-L4M-P0	.cache\6C\{6C227906-59D1-8555-7627-EDD9273920F5}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Combat-Trans-strings-55-75bpm4-4-L4M-P0		2658196
 	904078717	explosion	.cache\AF\{AF4A43A8-6F67-00EF-43ED-EE6C76302945}.wem		\Containers\Default Work Unit\Explosion\explosion		1446984

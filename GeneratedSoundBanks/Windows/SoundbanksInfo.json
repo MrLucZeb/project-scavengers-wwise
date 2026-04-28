@@ -653,7 +653,7 @@
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
     "Language": "SFX",
-    "Hash": "{0F5FED99-CED4-A767-67C2-17892D01CA30}",
+    "Hash": "{D2294EA0-DE57-C5F0-E6A3-6AC72BB33573}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -675,6 +675,14 @@
       "CachePath": "7B/{7BEE2148-C7E8-5F6A-E570-65A9A7A3E160}.wem"
      },
      {
+      "Id": "114776965",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510.wav",
+      "CachePath": "0D/{0DD04190-716A-13F0-9FE8-2A4F1FCC57DB}.wem"
+     },
+     {
       "Id": "134518801",
       "Language": "SFX",
       "Streaming": "false",
@@ -683,12 +691,28 @@
       "CachePath": "B1/{B1E20C8C-909B-5D62-9F64-C6F0CED332EE}.wem"
      },
      {
+      "Id": "187445172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512.wav",
+      "CachePath": "11/{11595D85-80C1-D7AC-2F18-AEF72CEA2F8E}.wem"
+     },
+     {
       "Id": "190275706",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "zapsplat_horror_gore_impact_fresh_fleshy_guts_bloody_punch_stab_009_66352.wav",
       "CachePath": "1E/{1E229279-A77E-DB1E-184A-6493885FFD6B}.wem"
+     },
+     {
+      "Id": "235933696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511.wav",
+      "CachePath": "0A/{0AA3703A-B99F-DB22-1588-9052BCD06FE4}.wem"
      },
      {
       "Id": "253492989",
@@ -705,6 +729,14 @@
       "Location": "Memory",
       "ShortName": "Mixdown.wav",
       "CachePath": "2D/{2D8FA2EB-F57E-E26A-512E-04AB21097DB5}.wem"
+     },
+     {
+      "Id": "327863606",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514.wav",
+      "CachePath": "68/{689EA0CC-BAEC-587F-CA37-40381658301A}.wem"
      },
      {
       "Id": "349245397",
@@ -771,6 +803,14 @@
       "CachePath": "54/{54AC278F-B233-807E-A41D-DEAD7AFC995A}.wem"
      },
      {
+      "Id": "623137118",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513.wav",
+      "CachePath": "86/{8676AF1E-1E12-7B4D-850F-AB0DB12C4C44}.wem"
+     },
+     {
       "Id": "673460087",
       "Language": "SFX",
       "Streaming": "false",
@@ -785,6 +825,14 @@
       "Location": "Memory",
       "ShortName": "Combat-A-lead-75bpm4-4-L4M-P0.wav",
       "CachePath": "7A/{7A461A98-AF8F-56E3-B06D-BCDFD7952722}.wem"
+     },
+     {
+      "Id": "711240140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508.wav",
+      "CachePath": "00/{001E6797-4675-F056-5A2E-B4DB1E38ED94}.wem"
      },
      {
       "Id": "743853540",
@@ -849,6 +897,14 @@
       "Location": "Memory",
       "ShortName": "Body3.wav",
       "CachePath": "62/{624BCA9B-59DE-257F-49CB-D982A0BAD841}.wem"
+     },
+     {
+      "Id": "858572271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509.wav",
+      "CachePath": "DA/{DA407231-A306-57C4-7844-F310A33B0B93}.wem"
      },
      {
       "Id": "878569457",
@@ -1075,6 +1131,38 @@
        },
        {
         "Id": "931735967"
+       }
+      ]
+     },
+     {
+      "Id": "1866025847",
+      "Name": "Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Entity\\Footstep",
+      "GUID": "{3A61C826-BEF4-482B-82B8-F3B292AC5833}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18777223",
+      "DurationMax": "0.7312697",
+      "MediaRefs": [
+       {
+        "Id": "114776965"
+       },
+       {
+        "Id": "187445172"
+       },
+       {
+        "Id": "235933696"
+       },
+       {
+        "Id": "327863606"
+       },
+       {
+        "Id": "623137118"
+       },
+       {
+        "Id": "711240140"
+       },
+       {
+        "Id": "858572271"
        }
       ]
      },
@@ -1533,6 +1621,6 @@
     ]
    }
   ],
-  "FileHash": "{452E124D-5893-3B60-B126-FA01767F8AB2}"
+  "FileHash": "{5D09762C-E5A6-F278-45F0-10D3EE5DEBE2}"
  }
 }
