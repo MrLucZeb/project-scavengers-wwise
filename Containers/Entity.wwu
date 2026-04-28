@@ -289,6 +289,234 @@
 						<ActiveSource Name="Body3" ID="{06E3EB6D-2815-4DB5-BBAE-8AF90406D3A1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Footstep" ID="{8452AB4B-A337-4299-9B1B-67C11FC77774}" ShortID="980107513">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{800567E9-3D59-4D15-BDBD-11F179892F9D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511" ID="{F811103A-9432-4312-AF6F-D117237BB62A}" ShortID="285426841">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511" ID="{DE138616-7564-4428-8546-86DCC2B04262}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235933696"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_007_32511" ID="{DE138616-7564-4428-8546-86DCC2B04262}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514" ID="{DF2A23AB-C5C0-4D67-8220-E16519D888FC}" ShortID="251920813">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514" ID="{24B33939-8FDD-4248-A4AC-B0EE0B8C06F9}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="327863606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_010_32514" ID="{24B33939-8FDD-4248-A4AC-B0EE0B8C06F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513" ID="{11A6E0E9-B877-4A59-9570-3C924F51A6A1}" ShortID="960632886">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513" ID="{B93A295F-23CC-4BC0-A339-CA607FEDEF6D}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="623137118"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_009_32513" ID="{B93A295F-23CC-4BC0-A339-CA607FEDEF6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512" ID="{3BCC3794-A161-46C7-BA00-7D9F7D95BCDB}" ShortID="137210368">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512" ID="{CDECAC35-BBAA-4C7A-AB9E-02D40F1F23E1}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187445172"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_008_32512" ID="{CDECAC35-BBAA-4C7A-AB9E-02D40F1F23E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508" ID="{BFCA6FE8-E582-44D1-85CD-099E60419B62}" ShortID="123614691">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508" ID="{2F7EA1D2-05D2-4B52-A4FE-B55DDA7C8138}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="711240140"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508" ID="{2F7EA1D2-05D2-4B52-A4FE-B55DDA7C8138}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510" ID="{6AE27AB6-985E-4315-88F9-DF33E1D41C2A}" ShortID="1005074513">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510" ID="{7FDA6318-F4EA-48BD-BBB8-70D0DE087AED}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="114776965"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_006_32510" ID="{7FDA6318-F4EA-48BD-BBB8-70D0DE087AED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509" ID="{72F70B89-B689-45D7-AF55-DAF965E31CF4}" ShortID="991123385">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509" ID="{6EF6654D-F5BB-45E4-A3E0-EA96F38C76CF}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="858572271"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_005_32509" ID="{6EF6654D-F5BB-45E4-A3E0-EA96F38C76CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>
