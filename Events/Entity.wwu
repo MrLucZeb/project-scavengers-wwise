@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" SchemaVersion="133" RootDocumentID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" ParentDocumentID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}">
+	<Events>
+		<WorkUnit Name="Entity" ID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" OwnerID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Impact" ID="{D84C2767-743E-42BF-B124-862D50A87573}">
+					<ChildrenList>
+						<Action Name="" ID="{448A1179-7B6F-4EC4-95AB-4956A6A1D1AF}" ShortID="249647374">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact" ID="{49834C82-FF59-4142-817D-51480237642C}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hit" ID="{825F26C4-9D38-4DA2-B6E5-D742E61496A9}">
+					<ChildrenList>
+						<Action Name="" ID="{299D16F0-F945-40E4-AD22-30017C30F84C}" ShortID="311424070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="simple_hit" ID="{ABC9803D-B2C7-4686-87FC-AE5C792E414E}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Crawler_Spawn" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}">
+					<ChildrenList>
+						<Action Name="" ID="{6A957A79-93E6-432B-BCB6-A08FB055CE7B}" ShortID="394933754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Spawn" ID="{CADDC46A-2B43-4D21-B8BE-0A09431D372B}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

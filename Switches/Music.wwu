@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D451AF5A-FC77-481A-A330-97BB6A9AF91A}" SchemaVersion="133" RootDocumentID="{C33AC217-AD6F-4236-B0DB-4B2CBEBEED2D}" ParentDocumentID="{C33AC217-AD6F-4236-B0DB-4B2CBEBEED2D}">
+	<Switches>
+		<WorkUnit Name="Music" ID="{D451AF5A-FC77-481A-A330-97BB6A9AF91A}" OwnerID="{C33AC217-AD6F-4236-B0DB-4B2CBEBEED2D}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Gameplay" ID="{B3FE6063-C6C0-4365-8DCF-EF11F067C2DA}">
+					<ChildrenList>
+						<Switch Name="Explore" ID="{958204A3-AD61-4148-B922-B866B9886AE9}"/>
+						<Switch Name="Combat" ID="{EE0B0515-5E60-4940-BAF0-28C8E0F5D669}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Intensity" ID="{FC3AB689-7957-4289-B09B-E88009E4E1ED}">
+					<ChildrenList>
+						<Switch Name="Lvl1" ID="{F39C0AEB-488A-4F80-8056-ABA77397E5FB}"/>
+						<Switch Name="Lvl2" ID="{E8799853-BAF9-4B2F-BEEF-314CE35C0342}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

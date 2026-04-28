@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A9FA89B-4578-42E0-A5DA-6E483AB478BC}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Music" ID="{8A9FA89B-4578-42E0-A5DA-6E483AB478BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Combat-kick-75bpm4-4-L4M-P0" ID="{22A1FF42-411D-425A-84C1-8F8F5A02AC60}" ShortID="745471963">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Combat-kick-75bpm4-4-L4M-P0" ID="{A30B2C31-BFE7-4884-B62E-08105A644BBD}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.799184602453326"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Combat-kick-75bpm4-4-L4M-P0.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="614549279"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Combat-kick-75bpm4-4-L4M-P0" ID="{A30B2C31-BFE7-4884-B62E-08105A644BBD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

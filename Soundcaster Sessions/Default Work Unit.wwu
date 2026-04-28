@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{665E820A-E4BB-458E-B47B-6D421F7E1B79}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{665E820A-E4BB-458E-B47B-6D421F7E1B79}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{9471C7F8-B856-4F12-9EC9-493327C8B213}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="StartMusic" ID="{0E78BFD9-9D03-42E4-84E8-60CABA2AC3A3}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat1" ID="{8A41B96F-232A-427A-8621-DB5288B78A14}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat2" ID="{4A77231F-95F9-49E6-95DD-57AD47D169D2}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{381ACC74-91CA-4824-87D5-F19E5EA55535}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

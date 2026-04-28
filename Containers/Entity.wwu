@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}" SchemaVersion="133" RootDocumentID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" ParentDocumentID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}">
+	<Containers>
+		<WorkUnit Name="Entity" ID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}" OwnerID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Hit" ID="{95DF0424-D212-4749-B94A-A9EDE2AA836B}" ShortID="589411653">
+					<ChildrenList>
+						<Sound Name="simple_hit" ID="{ABC9803D-B2C7-4686-87FC-AE5C792E414E}" ShortID="294602888">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2527564-96D3-43EF-ADA1-9E6D92BB7202}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1000"/>
+													<Property Name="Min" Type="Real64" Value="-1000"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="zapsplat_horror_gore_impact_fresh_fleshy_guts_bloody_punch_stab_009_66352" ID="{371F8F13-B116-49C5-8786-56B45E84414A}">
+									<Language>SFX</Language>
+									<AudioFile>zapsplat_horror_gore_impact_fresh_fleshy_guts_bloody_punch_stab_009_66352.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="190275706"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="zapsplat_horror_gore_impact_fresh_fleshy_guts_bloody_punch_stab_009_66352" ID="{371F8F13-B116-49C5-8786-56B45E84414A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Impact" ID="{49834C82-FF59-4142-817D-51480237642C}" ShortID="399274238">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1018</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{541537CA-23DD-4524-B7DB-AB2D79561AC2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1000"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="gma_bullet_impact_body_flesh_01_121" ID="{F27DE89A-C5AC-4E29-8669-9D4DD1183B50}" ShortID="698035488">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gma_bullet_impact_body_flesh_01_121" ID="{922C6403-9F93-4CBD-A2FD-1996CC381409}">
+									<Language>SFX</Language>
+									<AudioFile>gma_bullet_impact_body_flesh_01_121.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="43786366"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gma_bullet_impact_body_flesh_01_121" ID="{922C6403-9F93-4CBD-A2FD-1996CC381409}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gma_bullet_impact_body_flesh_02_122" ID="{C18A8722-FEA8-4317-A774-300A0CED7FC4}" ShortID="596674761">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gma_bullet_impact_body_flesh_02_122" ID="{B213C81B-16D1-410B-9D3A-4C342FDE8CC0}">
+									<Language>SFX</Language>
+									<AudioFile>gma_bullet_impact_body_flesh_02_122.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="355446845"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gma_bullet_impact_body_flesh_02_122" ID="{B213C81B-16D1-410B-9D3A-4C342FDE8CC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gma_bullet_impact_body_flesh_03_123" ID="{EF6520E8-B8D1-4C55-A301-234B4D917ED6}" ShortID="266442918">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gma_bullet_impact_body_flesh_03_123" ID="{345583B5-EEBC-4820-BC71-F39FA149C8D8}">
+									<Language>SFX</Language>
+									<AudioFile>gma_bullet_impact_body_flesh_03_123.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="632699545"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gma_bullet_impact_body_flesh_03_123" ID="{345583B5-EEBC-4820-BC71-F39FA149C8D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gma_bullet_impact_body_flesh_04_124" ID="{A15BB2FD-13D1-47F8-BD87-E80523A6C42B}" ShortID="729583883">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gma_bullet_impact_body_flesh_04_124" ID="{3C2C5A53-75E3-47D9-8D2E-85E958ABCDD4}">
+									<Language>SFX</Language>
+									<AudioFile>gma_bullet_impact_body_flesh_04_124.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="8572930"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gma_bullet_impact_body_flesh_04_124" ID="{3C2C5A53-75E3-47D9-8D2E-85E958ABCDD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gma_bullet_impact_body_flesh_05_125" ID="{7428FAD9-FAC1-4BFC-915F-43BEE7DB0339}" ShortID="921154490">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gma_bullet_impact_body_flesh_05_125" ID="{82418920-9A18-4AD1-9635-31F74C0531DC}">
+									<Language>SFX</Language>
+									<AudioFile>gma_bullet_impact_body_flesh_05_125.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="718512807"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gma_bullet_impact_body_flesh_05_125" ID="{82418920-9A18-4AD1-9635-31F74C0531DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Crawler_Spawn" ID="{CADDC46A-2B43-4D21-B8BE-0A09431D372B}" ShortID="1008872892">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{619952AE-ED72-4BE2-96B2-434E5D04757D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Body3" ID="{06E3EB6D-2815-4DB5-BBAE-8AF90406D3A1}">
+							<Language>SFX</Language>
+							<AudioFile>Body3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="849231707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Body3" ID="{06E3EB6D-2815-4DB5-BBAE-8AF90406D3A1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

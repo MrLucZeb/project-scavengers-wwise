@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}" SchemaVersion="133" RootDocumentID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" ParentDocumentID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}">
+	<Containers>
+		<WorkUnit Name="Weapons" ID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}" OwnerID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="pistol_shot" ID="{6D022B6E-EC22-4585-9070-6A61B03C61F9}" ShortID="517349252">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pistol_shot" ID="{EF36891F-86D2-427B-A63F-20705BDFEE73}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>pistol_shot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="513459578"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							
+						<EffectSlot Name="" ID="{3D7E5FC8-E712-4451-A690-0CC903AB6ACE}" ShortID="262324614">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Flanger (Custom)" ID="{EB6872CD-B4D1-41F7-B92E-BFC81EF44ED7}" ShortID="243758860" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.2"/>
+															<Property Name="DryLevel" Type="Real32" Value="0.44"/>
+															<Property Name="FeedForwardLevel" Type="Real32" Value="0.1"/>
+															<Property Name="ModDepth" Type="Real32" Value="17.4"/>
+															<Property Name="ModPWM" Type="Real32" Value="54"/>
+															<Property Name="OutputLevel" Type="Real32" Value="6"/>
+															<Property Name="WetDryMix" Type="Real32" Value="51"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot></ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="pistol_shot" ID="{EF36891F-86D2-427B-A63F-20705BDFEE73}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dry_fire" ID="{F2A45206-4BBC-4FC8-A133-5951ADEC71F2}" ShortID="788291580">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dry_fire" ID="{3BE46F82-749C-4843-A7ED-875C9996EEA3}">
+							<Language>SFX</Language>
+							<AudioFile>dry_fire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="349245397"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dry_fire" ID="{3BE46F82-749C-4843-A7ED-875C9996EEA3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="rifle_shot" ID="{822D44CC-A002-487D-A784-11F712764F1E}" ShortID="90024015">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="rifle_shot" ID="{AB3B9D2A-F103-4DF3-B359-2472D1E94535}">
+							<Language>SFX</Language>
+							<AudioFile>rifle_shot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="134518801"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="rifle_shot" ID="{AB3B9D2A-F103-4DF3-B359-2472D1E94535}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="shotgun_shot_reload" ID="{48E5F247-E3D9-4A46-ADF4-29D1D89D6785}" ShortID="281291222">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="shotgun_shot_reload" ID="{C8F8FB21-1DAF-4C27-A1D5-FE5781B8CA0B}">
+							<Language>SFX</Language>
+							<AudioFile>shotgun_shot_reload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="417871685"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="shotgun_shot_reload" ID="{C8F8FB21-1DAF-4C27-A1D5-FE5781B8CA0B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="pistol_draw" ID="{AB35032C-A69A-46F6-8C53-0DF0EE6BF2FF}" ShortID="866291989">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="pistol_draw" ID="{552D7566-2432-4071-AE6E-CB76949AD20F}">
+							<Language>SFX</Language>
+							<AudioFile>pistol_draw.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="253492989"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="pistol_draw" ID="{552D7566-2432-4071-AE6E-CB76949AD20F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="reload" ID="{F76AE2E5-D53F-4E38-983B-ED47CD26EB5C}" ShortID="344930845">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="reload" ID="{EA9A44E4-9F50-4CC7-885B-571B45DB5F43}">
+							<Language>SFX</Language>
+							<AudioFile>reload.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="443412640"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="reload" ID="{EA9A44E4-9F50-4CC7-885B-571B45DB5F43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ammo_pickup" ID="{16EDA410-6176-48E1-A2A6-12FBD7CCB694}" ShortID="352426215">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ammo_pickup" ID="{C952067F-FA6C-4CD6-B40A-DAF94856473B}">
+							<Language>SFX</Language>
+							<AudioFile>ammo_pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1057089279"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ammo_pickup" ID="{C952067F-FA6C-4CD6-B40A-DAF94856473B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

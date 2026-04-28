@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" SchemaVersion="133" RootDocumentID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" ParentDocumentID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}">
+	<Events>
+		<WorkUnit Name="Weapon" ID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" OwnerID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Pistol" ID="{675844AD-231D-4D1D-8E30-002A6A2CEDB2}" ShortID="592217019">
+					<ChildrenList>
+						<Event Name="Pistol_Shot" ID="{5AB7419A-1441-4D77-AEE1-850DE78E3C43}">
+							<ChildrenList>
+								<Action Name="" ID="{5E16137F-FAA5-4EAE-BD92-76A437DDA966}" ShortID="668536370">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pistol_shot" ID="{6D022B6E-EC22-4585-9070-6A61B03C61F9}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pistol_Draw" ID="{4FA0538D-BD44-4333-90BA-B48EE91033C4}">
+							<ChildrenList>
+								<Action Name="" ID="{AAD0650F-BCDD-4BDD-898F-21F4846D7C3B}" ShortID="686244390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pistol_draw" ID="{AB35032C-A69A-46F6-8C53-0DF0EE6BF2FF}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pistol_Dryfire" ID="{D32A0680-1FE3-4720-86B7-807D41AD8ADD}">
+							<ChildrenList>
+								<Action Name="" ID="{BE34DF84-C376-499B-9150-D0C721DD6ECD}" ShortID="778889838">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dry_fire" ID="{F2A45206-4BBC-4FC8-A133-5951ADEC71F2}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pistol_Reload" ID="{C4AFB621-803C-4312-9300-D9EFD5C1028E}">
+							<ChildrenList>
+								<Action Name="" ID="{B32239D7-DCB8-49E3-9E35-C1824CD55649}" ShortID="329999527">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reload" ID="{F76AE2E5-D53F-4E38-983B-ED47CD26EB5C}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Shotgun" ID="{CB8059EF-AF1A-4FAC-A5A0-676D2D703956}" ShortID="778831923">
+					<ChildrenList>
+						<Event Name="Shotgun_Shot" ID="{558007BC-18D2-465E-A5A0-CA440B0B4B1D}">
+							<ChildrenList>
+								<Action Name="" ID="{E60310E4-2AC1-4474-A32D-66BFE351C760}" ShortID="601270005">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shotgun_shot_reload" ID="{48E5F247-E3D9-4A46-ADF4-29D1D89D6785}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shotgun_Dryfire" ID="{CC03BF4F-0DE9-4CA0-BB4E-5BC2E7E04122}">
+							<ChildrenList>
+								<Action Name="" ID="{514BC2C6-6823-41FD-BC4D-DCBE1C2A9599}" ShortID="121025636">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dry_fire" ID="{F2A45206-4BBC-4FC8-A133-5951ADEC71F2}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shotgun_Reload" ID="{A8D8BF6A-EE65-4C78-A845-10CD83C6F855}">
+							<ChildrenList>
+								<Action Name="" ID="{18063E6C-C522-405F-80A2-CBEEEDC8C22A}" ShortID="707724106">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reload" ID="{F76AE2E5-D53F-4E38-983B-ED47CD26EB5C}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shotgun_Draw" ID="{6CA9994D-9DE4-4561-A9F2-A64453CF7F61}">
+							<ChildrenList>
+								<Action Name="" ID="{F1A9AD39-D175-4BF5-90F5-3BA4E46C5C18}" ShortID="29684418">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pistol_draw" ID="{AB35032C-A69A-46F6-8C53-0DF0EE6BF2FF}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rifle" ID="{5E9D48D6-3F91-4E92-818A-175CD9EFE2EE}" ShortID="669659851">
+					<ChildrenList>
+						<Event Name="Rifle_Shot" ID="{D80F9EDC-2286-4D51-AEA1-03093EDC50D6}">
+							<ChildrenList>
+								<Action Name="" ID="{DA467E53-ADDA-464A-A5D0-DC0154A17FD5}" ShortID="131716129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rifle_shot" ID="{822D44CC-A002-487D-A784-11F712764F1E}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Rifle_Dryfire" ID="{97BF63A8-044A-4E9A-B2A2-02471E9E5DB2}">
+							<ChildrenList>
+								<Action Name="" ID="{2F70854E-0922-4282-9530-D874C1EC41EE}" ShortID="441341161">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dry_fire" ID="{F2A45206-4BBC-4FC8-A133-5951ADEC71F2}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Rifle_Reload" ID="{3DC79FF4-6B7A-43BB-987C-FF3F1E7A62E5}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Ammo_Pickup" ID="{D6FBA3D4-68E3-4F0C-BA22-1674AE19CD63}">
+					<ChildrenList>
+						<Action Name="" ID="{A5F6F0EA-3BC5-4443-BDA8-9A38A255AC66}" ShortID="400641257">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ammo_pickup" ID="{16EDA410-6176-48E1-A2A6-12FBD7CCB694}" WorkUnitID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

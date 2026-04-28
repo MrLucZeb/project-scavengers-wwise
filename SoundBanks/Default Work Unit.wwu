@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1EF1ED2E-958B-450B-ADF1-C95B82C9E4E3}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{1EF1ED2E-958B-450B-ADF1-C95B82C9E4E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{33CABF34-5135-4DC3-B5CF-829C6CFC2315}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Crawler_Spawn" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Combat1" ID="{8A41B96F-232A-427A-8621-DB5288B78A14}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Impact" ID="{D84C2767-743E-42BF-B124-862D50A87573}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartMusic" ID="{0E78BFD9-9D03-42E4-84E8-60CABA2AC3A3}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Reload" ID="{C4AFB621-803C-4312-9300-D9EFD5C1028E}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Draw" ID="{4FA0538D-BD44-4333-90BA-B48EE91033C4}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rifle_Reload" ID="{3DC79FF4-6B7A-43BB-987C-FF3F1E7A62E5}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Explosion" ID="{023FED86-34DB-445D-97F8-3B8D9E5C7429}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shotgun_Shot" ID="{558007BC-18D2-465E-A5A0-CA440B0B4B1D}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Dryfire" ID="{D32A0680-1FE3-4720-86B7-807D41AD8ADD}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Explore" ID="{381ACC74-91CA-4824-87D5-F19E5EA55535}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Combat2" ID="{4A77231F-95F9-49E6-95DD-57AD47D169D2}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Entity" ID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shotgun_Dryfire" ID="{CC03BF4F-0DE9-4CA0-BB4E-5BC2E7E04122}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rifle_Shot" ID="{D80F9EDC-2286-4D51-AEA1-03093EDC50D6}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Shot" ID="{5AB7419A-1441-4D77-AEE1-850DE78E3C43}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Weapon" ID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rifle_Dryfire" ID="{97BF63A8-044A-4E9A-B2A2-02471E9E5DB2}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ammo_Pickup" ID="{D6FBA3D4-68E3-4F0C-BA22-1674AE19CD63}" WorkUnitID="{C8ACE22A-7F9F-4D83-A97C-B5AFDEA64C5C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

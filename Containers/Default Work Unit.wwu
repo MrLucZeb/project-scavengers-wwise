@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Weapons" ID="{CBF6E9DB-E958-4F72-AD1E-115ED0E74547}" PersistMode="Reference"/>
+				<WorkUnit Name="Entity" ID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}" PersistMode="Reference"/>
+				<RandomSequenceContainer Name="Explosion" ID="{F3C9051E-BBF8-4120-B459-A1E65125C239}" ShortID="74373668">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{93EB672B-9428-4F02-840A-84732B037566}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="explosion" ID="{F24DAB77-5EE5-4FD6-9587-869134D7561B}" ShortID="729831591">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{E7197A76-314B-4A15-979D-A04D74F11006}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0257197111388194"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.720151911886949"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.53587536367416"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>smartsound_CARTOON_FX_Big_Explosion_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="904078717"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{E7197A76-314B-4A15-979D-A04D74F11006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="explosion_01" ID="{F4CBE4FD-9121-4F90-9895-6EB675EF006B}" ShortID="993094075">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{3F421810-789E-4908-8914-87ABF12B4226}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.642992778470506"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.6130344970906"/>
+										<Property Name="TrimEnd" Type="Real64" Value="14.5316367934331"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>smartsound_CARTOON_FX_Big_Explosion_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="931735967"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{3F421810-789E-4908-8914-87ABF12B4226}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="explosion_02" ID="{D86E0646-25E1-4D72-9BDA-AB6057413251}" ShortID="79416615">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{B08ADF4C-EEEF-455B-B4D2-27169E92ECDF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.642992778470506"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="14.4287579488778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>smartsound_CARTOON_FX_Big_Explosion_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="673460087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="smartsound_CARTOON_FX_Big_Explosion_01" ID="{B08ADF4C-EEEF-455B-B4D2-27169E92ECDF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
