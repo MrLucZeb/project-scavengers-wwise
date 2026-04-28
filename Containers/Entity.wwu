@@ -8,13 +8,16 @@
 						<Sound Name="simple_hit" ID="{ABC9803D-B2C7-4686-87FC-AE5C792E414E}" ShortID="294602888">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>970</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{B2527564-96D3-43EF-ADA1-9E6D92BB7202}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1000"/>
-													<Property Name="Min" Type="Real64" Value="-1000"/>
+													<Property Name="Max" Type="Real64" Value="500"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -113,6 +116,11 @@
 						</Sound>
 						<Sound Name="gma_bullet_impact_body_flesh_02_122" ID="{C18A8722-FEA8-4317-A774-300A0CED7FC4}" ShortID="596674761">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-15</Value>
@@ -142,6 +150,11 @@
 						</Sound>
 						<Sound Name="gma_bullet_impact_body_flesh_03_123" ID="{EF6520E8-B8D1-4C55-A301-234B4D917ED6}" ShortID="266442918">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-15</Value>
@@ -171,6 +184,11 @@
 						</Sound>
 						<Sound Name="gma_bullet_impact_body_flesh_04_124" ID="{A15BB2FD-13D1-47F8-BD87-E80523A6C42B}" ShortID="729583883">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-15</Value>
@@ -200,6 +218,11 @@
 						</Sound>
 						<Sound Name="gma_bullet_impact_body_flesh_05_125" ID="{7428FAD9-FAC1-4BFC-915F-43BEE7DB0339}" ShortID="921154490">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-15</Value>

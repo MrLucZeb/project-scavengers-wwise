@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<Sound Name="pistol_shot" ID="{6D022B6E-EC22-4585-9070-6A61B03C61F9}" ShortID="517349252">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>280</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-20</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -34,26 +39,26 @@
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Effects">
-							
-						<EffectSlot Name="" ID="{3D7E5FC8-E712-4451-A690-0CC903AB6ACE}" ShortID="262324614">
-										<ReferenceList>
-											<Reference Name="Effect">
-												<Custom>
-													<Effect Name="Flanger (Custom)" ID="{EB6872CD-B4D1-41F7-B92E-BFC81EF44ED7}" ShortID="243758860" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
-														<PropertyList>
-															<Property Name="DelayTime" Type="Real32" Value="0.2"/>
-															<Property Name="DryLevel" Type="Real32" Value="0.44"/>
-															<Property Name="FeedForwardLevel" Type="Real32" Value="0.1"/>
-															<Property Name="ModDepth" Type="Real32" Value="17.4"/>
-															<Property Name="ModPWM" Type="Real32" Value="54"/>
-															<Property Name="OutputLevel" Type="Real32" Value="6"/>
-															<Property Name="WetDryMix" Type="Real32" Value="51"/>
-														</PropertyList>
-													</Effect>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot></ObjectList>
+							<EffectSlot Name="" ID="{3D7E5FC8-E712-4451-A690-0CC903AB6ACE}" ShortID="262324614">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Flanger (Custom)" ID="{EB6872CD-B4D1-41F7-B92E-BFC81EF44ED7}" ShortID="243758860" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+												<PropertyList>
+													<Property Name="DelayTime" Type="Real32" Value="0.2"/>
+													<Property Name="DryLevel" Type="Real32" Value="0.44"/>
+													<Property Name="FeedForwardLevel" Type="Real32" Value="0.1"/>
+													<Property Name="ModDepth" Type="Real32" Value="17.4"/>
+													<Property Name="ModPWM" Type="Real32" Value="54"/>
+													<Property Name="OutputLevel" Type="Real32" Value="6"/>
+													<Property Name="WetDryMix" Type="Real32" Value="51"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
 					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="pistol_shot" ID="{EF36891F-86D2-427B-A63F-20705BDFEE73}" Platform="Linked"/>
