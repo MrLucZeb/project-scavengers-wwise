@@ -130,6 +130,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Bridge_Cut" ID="{B2357556-C782-4978-9DA3-A7DE0BEADFF8}">
+					<ChildrenList>
+						<Action Name="" ID="{E51EAC47-45C8-479B-AD96-F384BBB10D5B}" ShortID="868793559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bridge_Cut" ID="{3A331F17-F4B2-48C9-96C4-0319EDC55448}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
