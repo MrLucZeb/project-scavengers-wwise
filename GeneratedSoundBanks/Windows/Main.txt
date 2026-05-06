@@ -1,6 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
 	13776098	Explosion			\Default Work Unit\Explosion	
-	96788079	Crawler_Spawn			\Default Work Unit\Entity\Crawler_Spawn	
 	317675242	Shotgun_Draw			\Default Work Unit\Weapon\Shotgun\Shotgun_Draw	
 	330778647	Rifle_Dryfire			\Default Work Unit\Weapon\Rifle\Rifle_Dryfire	
 	468347829	Combat2			\Default Work Unit\Combat2	
@@ -20,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3827058668	StartMusic			\Default Work Unit\StartMusic	
 	4183821267	Shotgun_Dryfire			\Default Work Unit\Weapon\Shotgun\Shotgun_Dryfire	
 	4253579710	Ammo_Pickup			\Default Work Unit\Weapon\Ammo_Pickup	
+	4269349321	Crawler_Fall			\Default Work Unit\Entity\Crawler_Fall	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Default Work Unit\Music\Gameplay	
@@ -59,7 +59,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	831112191	Combat-bridge-bass-75bpm4-4-L1M-P1	.cache\3F\{3F11047C-2B56-0E06-63B9-A1EE66AE7CC4}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2_Bridge\Combat-bridge-bass-75bpm4-4-L1M-P1		1843296
 	839852359	Combat-Trans-lead-55-75bpm4-4-L4M-P0	.cache\77\{770BC7F3-7787-4FB9-7BD3-8D0C42D58DB7}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Combat-Trans-lead-55-75bpm4-4-L4M-P0		2658196
 	842213639	Explore-ambient-reverb7-55bpm4-4-L4M-P0	.cache\2C\{2C9AC0B4-F099-FFB7-0689-29304BFFDF80}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Explore-Trans-Combat1\Explore-ambient-reverb7-55bpm4-4-L4M-P0		1047372
-	849231707	Crawler_Spawn	.cache\62\{624BCA9B-59DE-257F-49CB-D982A0BAD841}.wem		\Containers\Default Work Unit\Entity\Crawler_Spawn		24412
+	849231707	Crawler_Fall	.cache\62\{624BCA9B-59DE-257F-49CB-D982A0BAD841}.wem		\Containers\Default Work Unit\Entity\Crawler_Fall		24412
 	878569457	Mixdown2	.cache\26\{261D3D11-4798-933E-680C-1A48BD3CC54D}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB\Mixdown2		2258016
 	903794785	Combat-Trans-strings-55-75bpm4-4-L4M-P0	.cache\6C\{6C227906-59D1-8555-7627-EDD9273920F5}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Combat-Trans-strings-55-75bpm4-4-L4M-P0		2658196
 	904078717	explosion	.cache\AF\{AF4A43A8-6F67-00EF-43ED-EE6C76302945}.wem		\Containers\Default Work Unit\Explosion\explosion		1446984

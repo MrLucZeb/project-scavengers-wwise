@@ -136,6 +136,28 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Bridge_Destroy" ID="{57FC2020-34C7-4391-880F-BBBC676CD3D8}" ShortID="429330531">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bridge_Destroy" ID="{2A3A9471-CF17-4E22-9C67-E229365CBA75}">
+							<Language>SFX</Language>
+							<AudioFile>Bridge_Destroy.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="127449385"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bridge_Destroy" ID="{2A3A9471-CF17-4E22-9C67-E229365CBA75}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

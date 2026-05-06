@@ -653,7 +653,7 @@
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
     "Language": "SFX",
-    "Hash": "{9206CA62-4C3F-5F6C-B6E4-B81D21060B43}",
+    "Hash": "{DF425FF3-FFC4-78F4-8996-0B5E2D86082C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1027,9 +1027,9 @@
       ]
      },
      {
-      "Id": "96788079",
-      "Name": "Crawler_Spawn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Entity\\Crawler_Spawn",
+      "Id": "4269349321",
+      "Name": "Crawler_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Entity\\Crawler_Fall",
       "GUID": "{8776C530-6CA9-4212-9251-DC4D7B961560}",
       "DurationType": "OneShot",
       "DurationMin": "0.20653534",
@@ -1553,8 +1553,45 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "4138730553",
+    "Type": "Event",
+    "GUID": "{FEF008DD-1B2A-4807-AC7E-3E95B97B73FC}",
+    "Language": "SFX",
+    "Hash": "{9C661D9A-273F-B0EF-9DEA-4F77CF607FD8}",
+    "ObjectPath": "Bridge_Destroy",
+    "ShortName": "Bridge_Destroy",
+    "Path": "Event/Bridge_Destroy.bnk",
+    "Media": [
+     {
+      "Id": "127449385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bridge_Destroy.wav",
+      "Path": "Media/127449385.wem",
+      "CachePath": "5C/{5CAD444B-1AC1-50D5-46DD-5FFF337A2CB4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4138730553",
+      "Name": "Bridge_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bridge_Destroy",
+      "GUID": "{FEF008DD-1B2A-4807-AC7E-3E95B97B73FC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1370938",
+      "DurationMax": "2.1370938",
+      "MediaRefs": [
+       {
+        "Id": "127449385"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{413C1BC5-C516-4FF9-D86E-C5AD93BE3B4F}"
+  "FileHash": "{57C5E7F3-6DCD-2B5B-FF28-C03302F8F48B}"
  }
 }

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4138730553	Bridge_Destroy			\Default Work Unit\Bridge_Destroy	
+

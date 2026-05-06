@@ -119,6 +119,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Bridge_Destroy" ID="{FEF008DD-1B2A-4807-AC7E-3E95B97B73FC}">
+					<ChildrenList>
+						<Action Name="" ID="{2D39E804-1E1A-4026-BFFD-B051435D2A9B}" ShortID="86173849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bridge_Destroy" ID="{57FC2020-34C7-4391-880F-BBBC676CD3D8}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

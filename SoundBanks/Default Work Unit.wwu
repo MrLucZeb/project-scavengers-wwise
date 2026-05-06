@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{33CABF34-5135-4DC3-B5CF-829C6CFC2315}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Crawler_Spawn" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crawler_Fall" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Combat1" ID="{8A41B96F-232A-427A-8621-DB5288B78A14}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Impact" ID="{D84C2767-743E-42BF-B124-862D50A87573}" WorkUnitID="{807B1F5B-9E82-4AAE-A758-7A2E5CF115DA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartMusic" ID="{0E78BFD9-9D03-42E4-84E8-60CABA2AC3A3}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}" Origin="Manual" Filter="7"/>

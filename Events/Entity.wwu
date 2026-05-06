@@ -25,12 +25,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Crawler_Spawn" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}">
+				<Event Name="Crawler_Fall" ID="{8776C530-6CA9-4212-9251-DC4D7B961560}">
 					<ChildrenList>
 						<Action Name="" ID="{6A957A79-93E6-432B-BCB6-A08FB055CE7B}" ShortID="394933754">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Crawler_Spawn" ID="{CADDC46A-2B43-4D21-B8BE-0A09431D372B}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+									<ObjectRef Name="Crawler_Fall" ID="{CADDC46A-2B43-4D21-B8BE-0A09431D372B}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
