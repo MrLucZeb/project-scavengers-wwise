@@ -166,6 +166,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Bridge_Cut" ID="{3A331F17-F4B2-48C9-96C4-0319EDC55448}" ShortID="263446092">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
@@ -185,6 +192,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Bridge_Cut" ID="{AB08960F-C1EB-4627-B25F-5CEC9906BC77}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Gate_Open" ID="{41D9AD53-D0F0-449B-9BC9-AACF8CF1D4F3}" ShortID="336047968">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gate_Open" ID="{B90262FC-B2D0-484F-9B56-3192DE2EF6FF}">
+							<Language>SFX</Language>
+							<AudioFile>Gate_Open.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="126859979"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gate_Open" ID="{B90262FC-B2D0-484F-9B56-3192DE2EF6FF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

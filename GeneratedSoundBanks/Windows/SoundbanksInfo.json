@@ -649,6 +649,43 @@
     ]
    },
    {
+    "Id": "1696759739",
+    "Type": "Event",
+    "GUID": "{B2357556-C782-4978-9DA3-A7DE0BEADFF8}",
+    "Language": "SFX",
+    "Hash": "{E38BE8BC-3815-D707-C00C-A90687540664}",
+    "ObjectPath": "Bridge_Cut",
+    "ShortName": "Bridge_Cut",
+    "Path": "Event/Bridge_Cut.bnk",
+    "Media": [
+     {
+      "Id": "838202992",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bridge_Cut.wav",
+      "Path": "Media/838202992.wem",
+      "CachePath": "0A/{0A93C4EE-0752-2603-EF20-DF04C7AD1EDA}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1696759739",
+      "Name": "Bridge_Cut",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bridge_Cut",
+      "GUID": "{B2357556-C782-4978-9DA3-A7DE0BEADFF8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8225104",
+      "DurationMax": "0.8225104",
+      "MediaRefs": [
+       {
+        "Id": "838202992"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "3161908922",
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
@@ -1555,11 +1592,48 @@
     ]
    },
    {
+    "Id": "3328279379",
+    "Type": "Event",
+    "GUID": "{94A77EBC-CF70-4659-B3A0-3CB6C37DDC59}",
+    "Language": "SFX",
+    "Hash": "{092EECD7-7186-AB4A-289A-96C4887331DA}",
+    "ObjectPath": "Gate_Open",
+    "ShortName": "Gate_Open",
+    "Path": "Event/Gate_Open.bnk",
+    "Media": [
+     {
+      "Id": "126859979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gate_Open.wav",
+      "Path": "Media/126859979.wem",
+      "CachePath": "01/{018B20BE-56D7-9B93-ABC4-B3BF9348982E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3328279379",
+      "Name": "Gate_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gate_Open",
+      "GUID": "{94A77EBC-CF70-4659-B3A0-3CB6C37DDC59}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8354479",
+      "DurationMax": "1.8354479",
+      "MediaRefs": [
+       {
+        "Id": "126859979"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4138730553",
     "Type": "Event",
     "GUID": "{FEF008DD-1B2A-4807-AC7E-3E95B97B73FC}",
     "Language": "SFX",
-    "Hash": "{9C661D9A-273F-B0EF-9DEA-4F77CF607FD8}",
+    "Hash": "{343C629E-2D03-AA19-12C3-C09A62452260}",
     "ObjectPath": "Bridge_Destroy",
     "ShortName": "Bridge_Destroy",
     "Path": "Event/Bridge_Destroy.bnk",
@@ -1592,6 +1666,6 @@
     ]
    }
   ],
-  "FileHash": "{57C5E7F3-6DCD-2B5B-FF28-C03302F8F48B}"
+  "FileHash": "{09E1BB07-E696-49C9-33C2-88BA03CBAEF7}"
  }
 }

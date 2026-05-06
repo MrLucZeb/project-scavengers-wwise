@@ -141,6 +141,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Gate_Open" ID="{94A77EBC-CF70-4659-B3A0-3CB6C37DDC59}">
+					<ChildrenList>
+						<Action Name="" ID="{04EF2B99-9E72-4B9E-9439-1D7333B8641F}" ShortID="13105969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Open" ID="{41D9AD53-D0F0-449B-9BC9-AACF8CF1D4F3}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
