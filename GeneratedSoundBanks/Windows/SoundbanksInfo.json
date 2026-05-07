@@ -649,6 +649,43 @@
     ]
    },
    {
+    "Id": "1599183472",
+    "Type": "Event",
+    "GUID": "{DFD9CB10-2DAB-4FD0-ADF6-12F6B4FBD7BB}",
+    "Language": "SFX",
+    "Hash": "{D52101CD-5BB9-6DE9-8C59-49DFEBAD8295}",
+    "ObjectPath": "Typing",
+    "ShortName": "Typing",
+    "Path": "Event/Typing.bnk",
+    "Media": [
+     {
+      "Id": "944394571",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Typing.wav",
+      "Path": "Media/944394571.wem",
+      "CachePath": "63/{6397F85C-CDD7-97E8-5C7F-8A27CF2D0690}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1599183472",
+      "Name": "Typing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Typing",
+      "GUID": "{DFD9CB10-2DAB-4FD0-ADF6-12F6B4FBD7BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.016635416",
+      "DurationMax": "0.016635416",
+      "MediaRefs": [
+       {
+        "Id": "944394571"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1696759739",
     "Type": "Event",
     "GUID": "{B2357556-C782-4978-9DA3-A7DE0BEADFF8}",
@@ -1666,6 +1703,6 @@
     ]
    }
   ],
-  "FileHash": "{09E1BB07-E696-49C9-33C2-88BA03CBAEF7}"
+  "FileHash": "{796F39D1-099C-C29A-3FB2-C7733DE5FD32}"
  }
 }
