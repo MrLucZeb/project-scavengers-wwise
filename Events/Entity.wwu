@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Spawn" ID="{B0F75475-BAF5-4EA5-BDD7-367D3428C462}">
+					<ChildrenList>
+						<Action Name="" ID="{23D90DBC-FEA7-4818-AC1C-40EDC36E190C}" ShortID="43281882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn" ID="{607B82E9-98CA-4024-9CB7-A9CC8373145D}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Nest_Wave" ID="{CED54C74-E83A-4614-B94F-4337FACA8BAD}">
+					<ChildrenList>
+						<Action Name="" ID="{04E4F153-5B89-4042-9843-90CA14A517BA}" ShortID="499790386">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nest_Wave" ID="{4BC4A600-9A77-444D-A71A-837D0A6FE74E}" WorkUnitID="{D2CB9C9A-91FD-4447-8C50-85C8CCA090BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

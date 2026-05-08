@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	13776098	Explosion			\Default Work Unit\Explosion	
+	71202558	Spawn			\Default Work Unit\Entity\Spawn	
 	317675242	Shotgun_Draw			\Default Work Unit\Weapon\Shotgun\Shotgun_Draw	
 	330778647	Rifle_Dryfire			\Default Work Unit\Weapon\Rifle\Rifle_Dryfire	
 	468347829	Combat2			\Default Work Unit\Combat2	
@@ -13,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1382301657	Pistol_Draw			\Default Work Unit\Weapon\Pistol\Pistol_Draw	
 	1866025847	Footstep			\Default Work Unit\Entity\Footstep	
 	2267812190	Pistol_Dryfire			\Default Work Unit\Weapon\Pistol\Pistol_Dryfire	
+	2821800493	Nest_Wave			\Default Work Unit\Entity\Nest_Wave	
 	3214964847	Rifle_Reload			\Default Work Unit\Weapon\Rifle\Rifle_Reload	
 	3257506471	Impact			\Default Work Unit\Entity\Impact	
 	3479070331	Shotgun_Reload			\Default Work Unit\Weapon\Shotgun\Shotgun_Reload	
@@ -39,11 +41,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	81364142	Explore-bass-55bpm4-4-L4M-P0_01	.cache\7B\{7BEE2148-C7E8-5F6A-E570-65A9A7A3E160}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Explore-B\Explore-bass-55bpm4-4-L4M-P0_01		1047368
 	134518801	rifle_shot	.cache\B1\{B1E20C8C-909B-5D62-9F64-C6F0CED332EE}.wem		\Containers\Default Work Unit\Weapons\rifle_shot		46400
 	190275706	simple_hit	.cache\1E\{1E229279-A77E-DB1E-184A-6493885FFD6B}.wem		\Containers\Default Work Unit\Entity\Hit\simple_hit		89752
+	239056475	spawnsound_1	.cache\0E\{0E5DC8ED-660C-9A55-C055-EE7241223F5C}.wem		\Containers\Default Work Unit\Entity\Spawn\spawnsound_1		118046
 	253492989	pistol_draw	.cache\C6\{C69AD417-DB60-EF95-0CC0-B1E8B7D5EDBC}.wem		\Containers\Default Work Unit\Weapons\pistol_draw		131704
 	259860565	Mixdown	.cache\2D\{2D8FA2EB-F57E-E26A-512E-04AB21097DB5}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat1\Combat1-Trans-Combat2\Mixdown		2526748
 	349245397	dry_fire	.cache\B5\{B5855E47-6274-61F6-8664-E53D49522179}.wem		\Containers\Default Work Unit\Weapons\dry_fire		17416
 	417871685	shotgun_shot_reload	.cache\1F\{1F8A290B-4384-1183-09BC-498BA3A0A543}.wem		\Containers\Default Work Unit\Weapons\shotgun_shot_reload		352892
 	443412640	reload	.cache\F9\{F9A4E600-4B64-D7FC-FAAC-931FBD85BB19}.wem		\Containers\Default Work Unit\Weapons\reload		219976
+	444097457	Nest_Wave	.cache\B7\{B75A736E-A074-08E8-C794-9D8F4B3D6163}.wem		\Containers\Default Work Unit\Entity\Nest_Wave		548776
 	454136934	Combat-A-Kick-75bpm4-4-L0M-P1	.cache\F7\{F7EABB87-0A99-072B-35E1-E047B1359E93}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB_01\Combat-A-Kick-75bpm4-4-L0M-P1		3686496
 	506189515	Combat_Trans-Bass-75bpm4-4-L4M-P0	.cache\C5\{C5FF0790-0DE5-0D2B-4C2C-35E4D7FA41CF}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Exlore-Trans-Combat2\Combat_Trans-Bass-75bpm4-4-L4M-P0		2658196
 	513459578	pistol_shot	.cache\A7\{A7DBDE65-E31F-54CA-A067-E52286CCD8D2}.wem		\Containers\Default Work Unit\Weapons\pistol_shot		110664
@@ -51,6 +55,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	583978091	Combat-AB-Lead-75bpm4-4-L4M-P0	.cache\54\{54AC278F-B233-807E-A41D-DEAD7AFC995A}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-A\Combat-AB-Lead-75bpm4-4-L4M-P0		3686496
 	673460087	explosion_02	.cache\EC\{ECB7D5A5-73CB-EAFE-4B0D-899B136396B8}.wem		\Containers\Default Work Unit\Explosion\explosion_02		1190200
 	680914672	Combat-AB-Lead-75bpm4-4-L4M-P0	.cache\7A\{7A461A98-AF8F-56E3-B06D-BCDFD7952722}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB_01\Combat-AB-Lead-75bpm4-4-L4M-P0		3072096
+	705056332	spawnsound_2	.cache\11\{1164FD6F-E9A6-547D-73C5-AFFCE272A228}.wem		\Containers\Default Work Unit\Entity\Spawn\spawnsound_2		110782
 	711240140	zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508	.cache\00\{001E6797-4675-F056-5A2E-B4DB1E38ED94}.wem		\Containers\Default Work Unit\Entity\Footstep\zapsplat_foley_footstep_single_sneaker_childs_on_street_or_road_004_32508		24158
 	743853540	Combat-bridge-lead-75bpm4-4-L1M-P1	.cache\7A\{7AC5B237-B820-C8C0-BA04-B263AC4E47FA}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2_Bridge\Combat-bridge-lead-75bpm4-4-L1M-P1		1843296
 	754362602	Combat-Trans-kick-55-75bpm4-4-L4M-P0	.cache\0F\{0FCF7CAF-C98E-B33E-DD1E-8DA3C5569A7D}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Exlore-Trans-Combat2\Combat-Trans-kick-55-75bpm4-4-L4M-P0		2658196
@@ -69,6 +74,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	964733275	Combat-Trans-full-55-75bpm4-4-L4M-P0	.cache\06\{06A340EF-B079-C72C-BBBF-4A70A9818FDF}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Exlore-Trans-Combat2\Combat-Trans-full-55-75bpm4-4-L4M-P0		2043796
 	983283634	Combat-AB-Distorterd-bass-75bpm4-4-L4M-P0	.cache\C9\{C97AA5CE-3F3B-5140-79B4-D73F02C9F224}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB\Combat-AB-Distorterd-bass-75bpm4-4-L4M-P0		3072096
 	996997479	Combat-AB-strings-75bpm4-4-L4M-P0	.cache\5F\{5F82DDC5-29C4-8B6D-D9FD-B2DFEAC675B8}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Combat2\Combat2-Trans-AB_01\Combat-AB-strings-75bpm4-4-L4M-P0		3072096
+	1001837258	spawnsound_3	.cache\B4\{B4F43479-F52A-CA5F-F4D2-9B4D653ECDDB}.wem		\Containers\Default Work Unit\Entity\Spawn\spawnsound_3		140876
 	1033916548	Combat-Trans-distortedBASS-55-75bpm4-4-L4M-P0	.cache\3C\{3CA89007-B486-7EF9-E1ED-01685D220EEE}.wem		\Containers\Music (Migrated)\Default Work Unit\Music\Explore\Exlore-Trans-Combat2\Combat-Trans-distortedBASS-55-75bpm4-4-L4M-P0		2658196
 	1057089279	ammo_pickup	.cache\26\{26D5B883-2B87-3894-E7DF-96393E8C0750}.wem		\Containers\Default Work Unit\Weapons\ammo_pickup		64608
 

@@ -649,43 +649,6 @@
     ]
    },
    {
-    "Id": "1599183472",
-    "Type": "Event",
-    "GUID": "{DFD9CB10-2DAB-4FD0-ADF6-12F6B4FBD7BB}",
-    "Language": "SFX",
-    "Hash": "{D52101CD-5BB9-6DE9-8C59-49DFEBAD8295}",
-    "ObjectPath": "Typing",
-    "ShortName": "Typing",
-    "Path": "Event/Typing.bnk",
-    "Media": [
-     {
-      "Id": "944394571",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Typing.wav",
-      "Path": "Media/944394571.wem",
-      "CachePath": "63/{6397F85C-CDD7-97E8-5C7F-8A27CF2D0690}.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "1599183472",
-      "Name": "Typing",
-      "ObjectPath": "\\Events\\Default Work Unit\\Typing",
-      "GUID": "{DFD9CB10-2DAB-4FD0-ADF6-12F6B4FBD7BB}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.016635416",
-      "DurationMax": "0.016635416",
-      "MediaRefs": [
-       {
-        "Id": "944394571"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "1696759739",
     "Type": "Event",
     "GUID": "{B2357556-C782-4978-9DA3-A7DE0BEADFF8}",
@@ -727,7 +690,7 @@
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
     "Language": "SFX",
-    "Hash": "{DF425FF3-FFC4-78F4-8996-0B5E2D86082C}",
+    "Hash": "{4251F01A-E8E5-4F8D-E439-21B7D65A800F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -763,6 +726,14 @@
       "Location": "Memory",
       "ShortName": "zapsplat_horror_gore_impact_fresh_fleshy_guts_bloody_punch_stab_009_66352.wav",
       "CachePath": "1E/{1E229279-A77E-DB1E-184A-6493885FFD6B}.wem"
+     },
+     {
+      "Id": "239056475",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "spawnsound_1.wav",
+      "CachePath": "0E/{0E5DC8ED-660C-9A55-C055-EE7241223F5C}.wem"
      },
      {
       "Id": "253492989",
@@ -803,6 +774,14 @@
       "Location": "Memory",
       "ShortName": "reload.wav",
       "CachePath": "F9/{F9A4E600-4B64-D7FC-FAAC-931FBD85BB19}.wem"
+     },
+     {
+      "Id": "444097457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "stampede.wav",
+      "CachePath": "B7/{B75A736E-A074-08E8-C794-9D8F4B3D6163}.wem"
      },
      {
       "Id": "454136934",
@@ -859,6 +838,14 @@
       "Location": "Memory",
       "ShortName": "Combat-A-lead-75bpm4-4-L4M-P0.wav",
       "CachePath": "7A/{7A461A98-AF8F-56E3-B06D-BCDFD7952722}.wem"
+     },
+     {
+      "Id": "705056332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "spawnsound_2.wav",
+      "CachePath": "11/{1164FD6F-E9A6-547D-73C5-AFFCE272A228}.wem"
      },
      {
       "Id": "711240140",
@@ -1003,6 +990,14 @@
       "Location": "Memory",
       "ShortName": "Combat\\Combat-A-strings-75bpm4-4-L4M-P0.wav",
       "CachePath": "5F/{5F82DDC5-29C4-8B6D-D9FD-B2DFEAC675B8}.wem"
+     },
+     {
+      "Id": "1001837258",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "spawnsound_3.wav",
+      "CachePath": "B4/{B4F43479-F52A-CA5F-F4D2-9B4D653ECDDB}.wem"
      },
      {
       "Id": "1033916548",
@@ -1203,6 +1198,20 @@
       ]
      },
      {
+      "Id": "2821800493",
+      "Name": "Nest_Wave",
+      "ObjectPath": "\\Events\\Default Work Unit\\Entity\\Nest_Wave",
+      "GUID": "{CED54C74-E83A-4614-B94F-4337FACA8BAD}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8577082",
+      "DurationMax": "2.8577082",
+      "MediaRefs": [
+       {
+        "Id": "444097457"
+       }
+      ]
+     },
+     {
       "Id": "1382301657",
       "Name": "Pistol_Draw",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\Pistol\\Pistol_Draw",
@@ -1356,6 +1365,26 @@
       "MediaRefs": [
        {
         "Id": "417871685"
+       }
+      ]
+     },
+     {
+      "Id": "71202558",
+      "Name": "Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Entity\\Spawn",
+      "GUID": "{B0F75475-BAF5-4EA5-BDD7-367D3428C462}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1529896",
+      "DurationMax": "1.4664583",
+      "MediaRefs": [
+       {
+        "Id": "239056475"
+       },
+       {
+        "Id": "705056332"
+       },
+       {
+        "Id": "1001837258"
        }
       ]
      },
@@ -1703,6 +1732,6 @@
     ]
    }
   ],
-  "FileHash": "{796F39D1-099C-C29A-3FB2-C7733DE5FD32}"
+  "FileHash": "{D396BA90-3C7E-A7AB-9084-7ACA1956C01F}"
  }
 }

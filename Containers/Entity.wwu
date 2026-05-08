@@ -522,6 +522,132 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Spawn" ID="{607B82E9-98CA-4024-9CB7-A9CC8373145D}" ShortID="874959167">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="spawnsound_1" ID="{D6651D86-2A93-41CA-B4FC-40EC44F0E38B}" ShortID="389911741">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spawnsound_1" ID="{92CE6AEB-53D0-457C-A159-38978F6F253F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.22982"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>spawnsound_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="239056475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spawnsound_1" ID="{92CE6AEB-53D0-457C-A159-38978F6F253F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spawnsound_2" ID="{295BFFBB-662F-494E-9852-1FED11E305D0}" ShortID="255152967">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spawnsound_2" ID="{F164414E-E25E-4586-AB40-A61923EE238A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.1787"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>spawnsound_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="705056332"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spawnsound_2" ID="{F164414E-E25E-4586-AB40-A61923EE238A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spawnsound_3" ID="{562BA9F1-21A7-4A7F-B0B7-BAD2E080D41F}" ShortID="381018635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spawnsound_3" ID="{E3F8514C-5893-4D2C-8ACE-B577020ABA3B}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.16371"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>spawnsound_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1001837258"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spawnsound_3" ID="{E3F8514C-5893-4D2C-8ACE-B577020ABA3B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Nest_Wave" ID="{4BC4A600-9A77-444D-A71A-837D0A6FE74E}" ShortID="311308988">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="stampede" ID="{94859762-0949-42F7-918D-E60C8FC8B27B}">
+							<Language>SFX</Language>
+							<AudioFile>stampede.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="444097457"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="stampede" ID="{94859762-0949-42F7-918D-E60C8FC8B27B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>
