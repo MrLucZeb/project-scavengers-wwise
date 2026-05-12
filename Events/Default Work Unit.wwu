@@ -152,6 +152,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Typing" ID="{89D3B465-7BDC-4AE2-B8CF-FDAB1641B8B7}">
+					<ChildrenList>
+						<Action Name="" ID="{6E36405A-D844-46B1-B238-6B2A095ED4F4}" ShortID="157852037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Typing" ID="{0DE88E96-9B2C-41CA-B18E-6D044B764009}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

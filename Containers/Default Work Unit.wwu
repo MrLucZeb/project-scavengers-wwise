@@ -216,6 +216,28 @@
 						<ActiveSource Name="Gate_Open" ID="{B90262FC-B2D0-484F-9B56-3192DE2EF6FF}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Typing" ID="{0DE88E96-9B2C-41CA-B18E-6D044B764009}" ShortID="48406326">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Typing" ID="{2574C4CF-E7E7-4A15-BFC0-E57440E68E83}">
+							<Language>SFX</Language>
+							<AudioFile>Typing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="359461943"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Typing" ID="{2574C4CF-E7E7-4A15-BFC0-E57440E68E83}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

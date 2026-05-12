@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1599183472	Typing			\Default Work Unit\Typing	
+
