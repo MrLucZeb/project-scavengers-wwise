@@ -653,7 +653,7 @@
     "Type": "Event",
     "GUID": "{89D3B465-7BDC-4AE2-B8CF-FDAB1641B8B7}",
     "Language": "SFX",
-    "Hash": "{328F787C-C1E4-ADFE-8DC2-82685B6F1557}",
+    "Hash": "{D972C5B4-AFE7-2C7E-CDCB-6E65AA800BE7}",
     "ObjectPath": "Typing",
     "ShortName": "Typing",
     "Path": "Event/Typing.bnk",
@@ -727,7 +727,7 @@
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
     "Language": "SFX",
-    "Hash": "{4251F01A-E8E5-4F8D-E439-21B7D65A800F}",
+    "Hash": "{52429EA2-C2E0-8E54-7EC0-219D01CF1281}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1769,6 +1769,6 @@
     ]
    }
   ],
-  "FileHash": "{F316442F-A3BE-1598-539A-1532B847B794}"
+  "FileHash": "{79CA151F-6949-BC35-8FF2-6DB70766F2EB}"
  }
 }

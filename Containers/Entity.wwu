@@ -524,9 +524,20 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Spawn" ID="{607B82E9-98CA-4024-9CB7-A9CC8373145D}" ShortID="874959167">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-18</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -621,9 +632,20 @@
 				</RandomSequenceContainer>
 				<Sound Name="Nest_Wave" ID="{4BC4A600-9A77-444D-A71A-837D0A6FE74E}" ShortID="311308988">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

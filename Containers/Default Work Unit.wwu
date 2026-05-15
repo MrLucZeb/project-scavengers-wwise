@@ -217,6 +217,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Typing" ID="{0DE88E96-9B2C-41CA-B18E-6D044B764009}" ShortID="48406326">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
