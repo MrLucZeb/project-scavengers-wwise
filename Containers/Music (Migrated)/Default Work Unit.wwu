@@ -6,6 +6,12 @@
 				<MusicSwitchContainer Name="Music" ID="{A4D95995-4103-4B14-8177-DC2D799E1FC3}" ShortID="214446322">
 					<PropertyList>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="55"/>
 					</PropertyList>
 					<ReferenceList>
@@ -939,6 +945,11 @@
 								<MusicSegment Name="Combat2_Bridge" ID="{8DFE66FF-2960-45E1-B5D8-9EB206AF1D99}" ShortID="414528622">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="13100"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="75"/>
 									</PropertyList>
@@ -5385,6 +5396,13 @@
 							</ChildrenList>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="New Music Playlist Container" ID="{A93E528F-648C-450D-B35F-FFAF90ABE685}" ShortID="1065721035">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>

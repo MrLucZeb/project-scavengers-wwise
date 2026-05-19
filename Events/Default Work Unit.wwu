@@ -78,13 +78,6 @@
 				</Event>
 				<Event Name="StartMusic" ID="{0E78BFD9-9D03-42E4-84E8-60CABA2AC3A3}">
 					<ChildrenList>
-						<Action Name="" ID="{6DD646A8-C04E-47EE-877F-08E8946D1A3A}" ShortID="521650542">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{A4D95995-4103-4B14-8177-DC2D799E1FC3}" WorkUnitID="{A9FC91E4-6C6A-42FE-ACC7-DD18C6AABF9C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{D479BE1A-5501-4C21-AB69-4122E0CD0596}" ShortID="722013413">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
@@ -102,6 +95,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Lvl1" ID="{F39C0AEB-488A-4F80-8056-ABA77397E5FB}" WorkUnitID="{D451AF5A-FC77-481A-A330-97BB6A9AF91A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6DD646A8-C04E-47EE-877F-08E8946D1A3A}" ShortID="521650542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{A4D95995-4103-4B14-8177-DC2D799E1FC3}" WorkUnitID="{A9FC91E4-6C6A-42FE-ACC7-DD18C6AABF9C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -159,6 +159,21 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Typing" ID="{0DE88E96-9B2C-41CA-B18E-6D044B764009}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMusic" ID="{6D12AE09-9D49-407A-BC4E-C1640872FD0A}">
+					<ChildrenList>
+						<Action Name="" ID="{EF3E4E04-6BA7-4AAD-9EFE-DA989B7B4DB2}" ShortID="499151053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{A4D95995-4103-4B14-8177-DC2D799E1FC3}" WorkUnitID="{A9FC91E4-6C6A-42FE-ACC7-DD18C6AABF9C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -723,11 +723,33 @@
     ]
    },
    {
+    "Id": "1917263390",
+    "Type": "Event",
+    "GUID": "{6D12AE09-9D49-407A-BC4E-C1640872FD0A}",
+    "Language": "SFX",
+    "Hash": "{1E9F0D8C-6A41-BD80-BB02-0870C4CA77C4}",
+    "ObjectPath": "StopMusic",
+    "ShortName": "StopMusic",
+    "Path": "Event/StopMusic.bnk",
+    "Events": [
+     {
+      "Id": "1917263390",
+      "Name": "StopMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\StopMusic",
+      "GUID": "{6D12AE09-9D49-407A-BC4E-C1640872FD0A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "3161908922",
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
     "Language": "SFX",
-    "Hash": "{52429EA2-C2E0-8E54-7EC0-219D01CF1281}",
+    "Hash": "{551FD591-9F17-8B94-EE71-0CFF13861D29}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -893,14 +915,6 @@
       "CachePath": "00/{001E6797-4675-F056-5A2E-B4DB1E38ED94}.wem"
      },
      {
-      "Id": "743853540",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat_Entry\\Combat-entry-lead-75bpm4-4-L1M-P1.wav",
-      "CachePath": "7A/{7AC5B237-B820-C8C0-BA04-B263AC4E47FA}.wem"
-     },
-     {
       "Id": "754362602",
       "Language": "SFX",
       "Streaming": "false",
@@ -909,28 +923,12 @@
       "CachePath": "0F/{0FCF7CAF-C98E-B33E-DD1E-8DA3C5569A7D}.wem"
      },
      {
-      "Id": "772907453",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat_Entry\\Combat-entry-strings-75bpm4-4-L1M-P1.wav",
-      "CachePath": "B0/{B0A20F45-ABB2-BFD8-5511-B27B501D35C2}.wem"
-     },
-     {
       "Id": "780021595",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Combat-B-kick-75bpm4-4-L4M-P1.wav",
       "CachePath": "2A/{2A2F91A1-63FD-130D-9B10-02FF7AA16A50}.wem"
-     },
-     {
-      "Id": "831112191",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Combat_Entry\\Combat-entry-bass-75bpm4-4-L1M-P1.wav",
-      "CachePath": "3F/{3F11047C-2B56-0E06-63B9-A1EE66AE7CC4}.wem"
      },
      {
       "Id": "839852359",
@@ -1605,16 +1603,7 @@
             "Id": "680914672"
            },
            {
-            "Id": "743853540"
-           },
-           {
-            "Id": "772907453"
-           },
-           {
             "Id": "780021595"
-           },
-           {
-            "Id": "831112191"
            },
            {
             "Id": "878569457"
@@ -1769,6 +1758,6 @@
     ]
    }
   ],
-  "FileHash": "{79CA151F-6949-BC35-8FF2-6DB70766F2EB}"
+  "FileHash": "{A3DF78EA-8A83-AE0E-9096-9E0C76AE5CA3}"
  }
 }

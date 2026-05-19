@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="StopMusic" ID="{6D12AE09-9D49-407A-BC4E-C1640872FD0A}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Combat1" ID="{8A41B96F-232A-427A-8621-DB5288B78A14}" WorkUnitID="{14D26F1A-1D7A-4876-95AB-D378780C2EA6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
