@@ -745,6 +745,43 @@
     ]
    },
    {
+    "Id": "3157840002",
+    "Type": "Event",
+    "GUID": "{584E7CA4-8959-412B-8564-5567ADFE839E}",
+    "Language": "SFX",
+    "Hash": "{E8FE2CD7-A15B-314F-6E8B-F6DACA8D98CC}",
+    "ObjectPath": "ModuleAttach",
+    "ShortName": "ModuleAttach",
+    "Path": "Event/ModuleAttach.bnk",
+    "Media": [
+     {
+      "Id": "113357785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModuleAttach.wav",
+      "Path": "Media/113357785.wem",
+      "CachePath": "E1/{E180ADAA-EF0F-6E7A-82FF-784695D059B5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3157840002",
+      "Name": "ModuleAttach",
+      "ObjectPath": "\\Events\\Default Work Unit\\ModuleAttach",
+      "GUID": "{584E7CA4-8959-412B-8564-5567ADFE839E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43315625",
+      "DurationMax": "0.43315625",
+      "MediaRefs": [
+       {
+        "Id": "113357785"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "3161908922",
     "Type": "User",
     "GUID": "{33CABF34-5135-4DC3-B5CF-829C6CFC2315}",
@@ -1721,6 +1758,80 @@
     ]
    },
    {
+    "Id": "3544978627",
+    "Type": "Event",
+    "GUID": "{52CCFEAD-5CF4-4D7B-A57E-7459879956BC}",
+    "Language": "SFX",
+    "Hash": "{894982BE-3B34-24C4-6E76-24FE4865C209}",
+    "ObjectPath": "ModuleDragStop",
+    "ShortName": "ModuleDragStop",
+    "Path": "Event/ModuleDragStop.bnk",
+    "Media": [
+     {
+      "Id": "130358514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModuleDragStop.wav",
+      "Path": "Media/130358514.wem",
+      "CachePath": "42/{42C33046-1995-3E15-F1EC-B720CB0BE263}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3544978627",
+      "Name": "ModuleDragStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ModuleDragStop",
+      "GUID": "{52CCFEAD-5CF4-4D7B-A57E-7459879956BC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06273958",
+      "DurationMax": "0.06273958",
+      "MediaRefs": [
+       {
+        "Id": "130358514"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3956203660",
+    "Type": "Event",
+    "GUID": "{1B0DAE0B-98C7-439B-BD7B-51647901167E}",
+    "Language": "SFX",
+    "Hash": "{93561370-B190-D80D-D8BC-3F4D37429481}",
+    "ObjectPath": "ModuleDetach",
+    "ShortName": "ModuleDetach",
+    "Path": "Event/ModuleDetach.bnk",
+    "Media": [
+     {
+      "Id": "239398623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ModuleDetach.wav",
+      "Path": "Media/239398623.wem",
+      "CachePath": "10/{101442E1-4622-A97B-4439-09EA14C015D4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3956203660",
+      "Name": "ModuleDetach",
+      "ObjectPath": "\\Events\\Default Work Unit\\ModuleDetach",
+      "GUID": "{1B0DAE0B-98C7-439B-BD7B-51647901167E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12085417",
+      "DurationMax": "0.12085417",
+      "MediaRefs": [
+       {
+        "Id": "239398623"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "4138730553",
     "Type": "Event",
     "GUID": "{FEF008DD-1B2A-4807-AC7E-3E95B97B73FC}",
@@ -1758,6 +1869,6 @@
     ]
    }
   ],
-  "FileHash": "{A3DF78EA-8A83-AE0E-9096-9E0C76AE5CA3}"
+  "FileHash": "{AEE375FC-3CB0-7436-F278-CF94F55990F7}"
  }
 }

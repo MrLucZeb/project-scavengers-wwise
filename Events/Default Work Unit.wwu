@@ -179,6 +179,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ModuleAttach" ID="{584E7CA4-8959-412B-8564-5567ADFE839E}">
+					<ChildrenList>
+						<Action Name="" ID="{D3F6E7C6-4D50-469F-BF16-788076DF9603}" ShortID="135459214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModuleAttach" ID="{B350189E-1533-4F22-9031-5B16C8352D2C}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ModuleDetach" ID="{1B0DAE0B-98C7-439B-BD7B-51647901167E}">
+					<ChildrenList>
+						<Action Name="" ID="{CAAD8243-E85E-49B2-815F-A01B730C104E}" ShortID="441564259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModuleDetach" ID="{F63AABF2-7521-4798-8458-7F215811E7E9}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ModuleDragStop" ID="{52CCFEAD-5CF4-4D7B-A57E-7459879956BC}">
+					<ChildrenList>
+						<Action Name="" ID="{77F2FDDB-12A0-492E-97B8-E1E2915E1446}" ShortID="377526040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModuleDragStop" ID="{185D0147-EE5E-47C1-BBF8-3B567C0F9866}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

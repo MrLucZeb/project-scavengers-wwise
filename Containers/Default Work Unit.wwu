@@ -245,6 +245,72 @@
 						<ActiveSource Name="Typing" ID="{2574C4CF-E7E7-4A15-BFC0-E57440E68E83}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ModuleAttach" ID="{B350189E-1533-4F22-9031-5B16C8352D2C}" ShortID="908632609">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModuleAttach" ID="{FAB4DCFA-C599-47A7-AE3D-0AE00C19AC0D}">
+							<Language>SFX</Language>
+							<AudioFile>ModuleAttach.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="113357785"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModuleAttach" ID="{FAB4DCFA-C599-47A7-AE3D-0AE00C19AC0D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ModuleDetach" ID="{F63AABF2-7521-4798-8458-7F215811E7E9}" ShortID="833106000">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModuleDetach" ID="{0C060AEE-E312-4765-8E9D-C54059DF4126}">
+							<Language>SFX</Language>
+							<AudioFile>ModuleDetach.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="239398623"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModuleDetach" ID="{0C060AEE-E312-4765-8E9D-C54059DF4126}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ModuleDragStop" ID="{185D0147-EE5E-47C1-BBF8-3B567C0F9866}" ShortID="873228126">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ModuleDragStop" ID="{56459CC6-DA48-4408-9F65-63A854C53D67}">
+							<Language>SFX</Language>
+							<AudioFile>ModuleDragStop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="130358514"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ModuleDragStop" ID="{56459CC6-DA48-4408-9F65-63A854C53D67}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

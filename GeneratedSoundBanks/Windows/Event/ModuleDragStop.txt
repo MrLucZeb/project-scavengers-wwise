@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3544978627	ModuleDragStop			\Default Work Unit\ModuleDragStop	
+
