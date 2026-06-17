@@ -311,6 +311,28 @@
 						<ActiveSource Name="ModuleDragStop" ID="{56459CC6-DA48-4408-9F65-63A854C53D67}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ModuleHover" ID="{15AF0043-D96E-4507-BA64-43BAC9513211}" ShortID="320393527">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BBD74AC8-5100-4026-B8AB-C781F457A469}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E67B9A78-5BBE-48D0-8D57-4F3EBD5B9E03}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="el_interface_button_13_hpx" ID="{195DAF0A-B795-49C3-AF60-E4942E318E38}">
+							<Language>SFX</Language>
+							<AudioFile>el_interface_button_13_hpx.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="569089850"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="el_interface_button_13_hpx" ID="{195DAF0A-B795-49C3-AF60-E4942E318E38}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

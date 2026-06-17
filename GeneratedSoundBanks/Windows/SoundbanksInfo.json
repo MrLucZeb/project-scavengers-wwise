@@ -1795,6 +1795,43 @@
     ]
    },
    {
+    "Id": "3942105961",
+    "Type": "Event",
+    "GUID": "{D7734B32-D734-41D8-91B7-AEC5428A7258}",
+    "Language": "SFX",
+    "Hash": "{8DE30382-9F9A-1AB4-D351-507C30C3533E}",
+    "ObjectPath": "ModuleHover",
+    "ShortName": "ModuleHover",
+    "Path": "Event/ModuleHover.bnk",
+    "Media": [
+     {
+      "Id": "569089850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "el_interface_button_13_hpx.wav",
+      "Path": "Media/569089850.wem",
+      "CachePath": "AA/{AAD59F4C-AD0D-CB81-8D1D-7D2FB69D60AB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3942105961",
+      "Name": "ModuleHover",
+      "ObjectPath": "\\Events\\Default Work Unit\\ModuleHover",
+      "GUID": "{D7734B32-D734-41D8-91B7-AEC5428A7258}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.104489796",
+      "DurationMax": "0.104489796",
+      "MediaRefs": [
+       {
+        "Id": "569089850"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "3956203660",
     "Type": "Event",
     "GUID": "{1B0DAE0B-98C7-439B-BD7B-51647901167E}",
@@ -1869,6 +1906,6 @@
     ]
    }
   ],
-  "FileHash": "{AEE375FC-3CB0-7436-F278-CF94F55990F7}"
+  "FileHash": "{69ADA16B-0FFB-9E2B-C3FE-D8A595CF5BD1}"
  }
 }

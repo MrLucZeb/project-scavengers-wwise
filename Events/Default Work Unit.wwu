@@ -212,6 +212,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ModuleHover" ID="{D7734B32-D734-41D8-91B7-AEC5428A7258}">
+					<ChildrenList>
+						<Action Name="" ID="{5B99D194-ED73-4A8F-BB45-40EE8592E76E}" ShortID="368641062">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ModuleHover" ID="{15AF0043-D96E-4507-BA64-43BAC9513211}" WorkUnitID="{14A8C121-F4C7-4E83-BD71-1D1B2B856D08}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
